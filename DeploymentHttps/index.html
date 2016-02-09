@@ -1,1029 +1,1186 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        
-        
-        <link rel="shortcut icon" href="../img/favicon.ico">
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <title>DeploymentHttps - Bots Edi Translator Documentation</title>
+  
 
-	<title>DeploymentHttps - Bots Edi Translator Documentation</title>
+  <link rel="shortcut icon" href="../img/favicon.ico">
 
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../css/highlight.css">
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
 
-        
-    </head>
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "DeploymentHttps";
+    var mkdocs_page_input_path = "DeploymentHttps.md";
+    var mkdocs_page_url = "/DeploymentHttps/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
 
-    <body>
+  
+</head>
 
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+<body class="wy-body-for-nav" role="document">
 
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            
+  <div class="wy-grid-for-nav">
 
-            <!-- Main title -->
-            <a class="navbar-brand" href="..">Bots Edi Translator Documentation</a>
-        </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                
-                
-                    <li >
-                        <a href="..">Home</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../AboutThisWiki/">AboutThisWiki</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Archiving/">Archiving</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../BotsName/">BotsName</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ChannelFileLock/">ChannelFileLock</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ChannelPortNumbers/">ChannelPortNumbers</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ChannelsDatabase/">ChannelsDatabase</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ChannelsIntroduction/">ChannelsIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ChannelsRecipes/">ChannelsRecipes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ChannelsScripting/">ChannelsScripting</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Charsets/">Charsets</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../CommunicationScriptsExample/">CommunicationScriptsExample</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../CommunicationScriptsSubclass/">CommunicationScriptsSubclass</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../CommunicationScriptsType/">CommunicationScriptsType</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationBotskey/">ConfigurationBotskey</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationCC/">ConfigurationCC</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationCharset/">ConfigurationCharset</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationDIY/">ConfigurationDIY</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationHow/">ConfigurationHow</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationMerge/">ConfigurationMerge</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationPartnerGroup/">ConfigurationPartnerGroup</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationPartners/">ConfigurationPartners</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationSplit/">ConfigurationSplit</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ConfigurationSplitMerge/">ConfigurationSplitMerge</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Confirmations/">Confirmations</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DaemonProcesses/">DaemonProcesses</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Debug/">Debug</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentAS2/">DeploymentAS2</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentAcceptance/">DeploymentAcceptance</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentAdvanced/">DeploymentAdvanced</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentAutopush/">DeploymentAutopush</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentEngine/">DeploymentEngine</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentEngineOverview/">DeploymentEngineOverview</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentEngineReturnCode/">DeploymentEngineReturnCode</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentEnv/">DeploymentEnv</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentErrorReports/">DeploymentErrorReports</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentHandleErrors/">DeploymentHandleErrors</a>
-                    </li>
-                
-                
-                
-                    <li class="active">
-                        <a href="./">DeploymentHttps</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentIntroduction/">DeploymentIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentMultipleEnvironments/">DeploymentMultipleEnvironments</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentMultipleEnvironmentsVirtual/">DeploymentMultipleEnvironmentsVirtual</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentOtherDatabase/">DeploymentOtherDatabase</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentSettimezone/">DeploymentSettimezone</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentTestSet/">DeploymentTestSet</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DeploymentWebserver/">DeploymentWebserver</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../DirMonitor/">DirMonitor</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../EnvelopeScripting/">EnvelopeScripting</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../EnvelopeScriptsExample/">EnvelopeScriptsExample</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Filenames/">Filenames</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Glossary/">Glossary</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsHowToGet/">GrammarsHowToGet</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsIntroduction/">GrammarsIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsNextmessage/">GrammarsNextmessage</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsNextmessageblock/">GrammarsNextmessageblock</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsPartnerSyntax/">GrammarsPartnerSyntax</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsRecorddefs/">GrammarsRecorddefs</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsStructure/">GrammarsStructure</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../GrammarsSyntax/">GrammarsSyntax</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Jobqueue/">Jobqueue</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Links/">Links</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../LinuxDaemons/">LinuxDaemons</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingCalculate/">MappingCalculate</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingCcode/">MappingCcode</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingChangedelete/">MappingChangedelete</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingEAN/">MappingEAN</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingFunction/">MappingFunction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingGet/">MappingGet</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingGetput/">MappingGetput</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingHowMappingWorks/">MappingHowMappingWorks</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingIntroduction/">MappingIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingPartnerLookup/">MappingPartnerLookup</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingPersist/">MappingPersist</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingPut/">MappingPut</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MappingRecipes/">MappingRecipes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Migrate/">Migrate</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Migrate210/">Migrate210</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Migrate220/">Migrate220</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Migrate300/">Migrate300</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Migrate310/">Migrate310</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Migrate320/">Migrate320</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MigrateDatabase/">MigrateDatabase</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MigrateDjango/">MigrateDjango</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MigrateKidGenshi/">MigrateKidGenshi</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MonitorIntroduction/">MonitorIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../MonitorRereceive/">MonitorRereceive</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../NewToPython/">NewToPython</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../OdooIntegration/">OdooIntegration</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../OverviewConfiguration/">OverviewConfiguration</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../OverviewDetail/">OverviewDetail</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../OverviewDirectoryLayout/">OverviewDirectoryLayout</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../OverviewIntroduction/">OverviewIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Performance/">Performance</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../PluginDetail/">PluginDetail</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../PluginGenerate/">PluginGenerate</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../PluginInstall/">PluginInstall</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../PluginIntroduction/">PluginIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../PluginList/">PluginList</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../ProjectHome/">ProjectHome</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RouteScriptsExample/">RouteScriptsExample</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RouteScriptsExampleBotsEngine/">RouteScriptsExampleBotsEngine</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RouteScriptsExampleWholeRoute/">RouteScriptsExampleWholeRoute</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RouteScriptsOverviewExits/">RouteScriptsOverviewExits</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RoutesAttributes/">RoutesAttributes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RoutesComposite/">RoutesComposite</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RoutesIntroduction/">RoutesIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RoutesPass/">RoutesPass</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RoutesRecipes/">RoutesRecipes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../RoutesScripts/">RoutesScripts</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../SideNavigation/">SideNavigation</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../SplitandMerge/">SplitandMerge</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartConfigurationFiles/">StartConfigurationFiles</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartGetBotsRunning/">StartGetBotsRunning</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartInstallDependencies/">StartInstallDependencies</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartInstallFaq/">StartInstallFaq</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartInstallProcedure/">StartInstallProcedure</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartInstallWindows/">StartInstallWindows</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartInstalllinux/">StartInstalllinux</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartIntroduction/">StartIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartMyFirstPlugin/">StartMyFirstPlugin</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartMyFirstPluginDepth/">StartMyFirstPluginDepth</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartMyFirstPluginResults/">StartMyFirstPluginResults</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../StartMyFirstPluginSetup/">StartMyFirstPluginSetup</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationAlt/">TranslationAlt</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationDetail/">TranslationDetail</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationIntroduction/">TranslationIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationRecipes/">TranslationRecipes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationRules/">TranslationRules</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationVersions/">TranslationVersions</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationperPartner/">TranslationperPartner</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TranslationperPartnerExtended/">TranslationperPartnerExtended</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Translations/">Translations</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../Troubleshooting/">Troubleshooting</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialAdvanceShipNotice/">TutorialAdvanceShipNotice</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialEdiBasics/">TutorialEdiBasics</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialHighLevelBusinessFlow/">TutorialHighLevelBusinessFlow</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialHome/">TutorialHome</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialInvoice/">TutorialInvoice</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialPurchaseOrder/">TutorialPurchaseOrder</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialPurchaseOrderAck/">TutorialPurchaseOrderAck</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../TutorialPurchaseOrderChange/">TutorialPurchaseOrderChange</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../UsefulTools/">UsefulTools</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../UserScriptingIntroduction/">UserScriptingIntroduction</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../UserSecurity/">UserSecurity</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../V300changes/">V300changes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../V300migrate/">V300migrate</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../V300rcchanges/">V300rcchanges</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../V310changes/">V310changes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../V310migrate/">V310migrate</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../V320changes/">V320changes</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../V320migrate/">V320migrate</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../WhereDoIStart/">WhereDoIStart</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../WindowsServices/">WindowsServices</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../XMLnamespace/">XMLnamespace</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../index_old/">Index old</a>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../sam/">Sam</a>
-                    </li>
-                
-                
-                </ul>
-            
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                
-                    <li >
-                        <a rel="next" href="../DeploymentHandleErrors/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../DeploymentIntroduction/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                
-                
-            </ul>
-        </div>
-    </div>
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Bots Edi Translator Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
 </div>
+      </div>
 
-        <div class="container">
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../AboutThisWiki/">AboutThisWiki</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Archiving/">Archiving</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../BotsName/">BotsName</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ChannelFileLock/">ChannelFileLock</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ChannelPortNumbers/">ChannelPortNumbers</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ChannelsDatabase/">ChannelsDatabase</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ChannelsIntroduction/">ChannelsIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ChannelsRecipes/">ChannelsRecipes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ChannelsScripting/">ChannelsScripting</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Charsets/">Charsets</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../CommunicationScriptsExample/">CommunicationScriptsExample</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../CommunicationScriptsSubclass/">CommunicationScriptsSubclass</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../CommunicationScriptsType/">CommunicationScriptsType</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationBotskey/">ConfigurationBotskey</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationCC/">ConfigurationCC</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationCharset/">ConfigurationCharset</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationDIY/">ConfigurationDIY</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationHow/">ConfigurationHow</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationMerge/">ConfigurationMerge</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationPartnerGroup/">ConfigurationPartnerGroup</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationPartners/">ConfigurationPartners</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationSplit/">ConfigurationSplit</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ConfigurationSplitMerge/">ConfigurationSplitMerge</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Confirmations/">Confirmations</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DaemonProcesses/">DaemonProcesses</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Debug/">Debug</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentAS2/">DeploymentAS2</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentAcceptance/">DeploymentAcceptance</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentAdvanced/">DeploymentAdvanced</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentAutopush/">DeploymentAutopush</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentEngine/">DeploymentEngine</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentEngineOverview/">DeploymentEngineOverview</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentEngineReturnCode/">DeploymentEngineReturnCode</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentEnv/">DeploymentEnv</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentErrorReports/">DeploymentErrorReports</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentHandleErrors/">DeploymentHandleErrors</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">DeploymentHttps</a>
+        
+            <ul>
             
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-    
-        <li class="main active"><a href="#bots-monitor-over-https-introduction">Bots-monitor over HTTPS Introduction</a></li>
+                <li class="toctree-l3"><a href="#bots-monitor-over-https-introduction">Bots-monitor over HTTPS Introduction</a></li>
+                
+                    <li><a class="toctree-l4" href="#tips">Tips</a></li>
+                
+            
+            </ul>
         
-            <li><a href="#tips">Tips</a></li>
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentIntroduction/">DeploymentIntroduction</a>
         
-    
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentMultipleEnvironments/">DeploymentMultipleEnvironments</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentMultipleEnvironmentsVirtual/">DeploymentMultipleEnvironmentsVirtual</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentOtherDatabase/">DeploymentOtherDatabase</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentSettimezone/">DeploymentSettimezone</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentTestSet/">DeploymentTestSet</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DeploymentWebserver/">DeploymentWebserver</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../DirMonitor/">DirMonitor</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../EnvelopeScripting/">EnvelopeScripting</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../EnvelopeScriptsExample/">EnvelopeScriptsExample</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Filenames/">Filenames</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Glossary/">Glossary</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsHowToGet/">GrammarsHowToGet</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsIntroduction/">GrammarsIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsNextmessage/">GrammarsNextmessage</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsNextmessageblock/">GrammarsNextmessageblock</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsPartnerSyntax/">GrammarsPartnerSyntax</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsRecorddefs/">GrammarsRecorddefs</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsStructure/">GrammarsStructure</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../GrammarsSyntax/">GrammarsSyntax</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Jobqueue/">Jobqueue</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Links/">Links</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../LinuxDaemons/">LinuxDaemons</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingCalculate/">MappingCalculate</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingCcode/">MappingCcode</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingChangedelete/">MappingChangedelete</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingEAN/">MappingEAN</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingFunction/">MappingFunction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingGet/">MappingGet</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingGetput/">MappingGetput</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingHowMappingWorks/">MappingHowMappingWorks</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingIntroduction/">MappingIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingPartnerLookup/">MappingPartnerLookup</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingPersist/">MappingPersist</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingPut/">MappingPut</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MappingRecipes/">MappingRecipes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Migrate/">Migrate</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Migrate210/">Migrate210</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Migrate220/">Migrate220</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Migrate300/">Migrate300</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Migrate310/">Migrate310</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Migrate320/">Migrate320</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MigrateDatabase/">MigrateDatabase</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MigrateDjango/">MigrateDjango</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MigrateKidGenshi/">MigrateKidGenshi</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MonitorIntroduction/">MonitorIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../MonitorRereceive/">MonitorRereceive</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../NewToPython/">NewToPython</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../OdooIntegration/">OdooIntegration</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../OverviewConfiguration/">OverviewConfiguration</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../OverviewDetail/">OverviewDetail</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../OverviewDirectoryLayout/">OverviewDirectoryLayout</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../OverviewIntroduction/">OverviewIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Performance/">Performance</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../PluginDetail/">PluginDetail</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../PluginGenerate/">PluginGenerate</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../PluginInstall/">PluginInstall</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../PluginIntroduction/">PluginIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../PluginList/">PluginList</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../ProjectHome/">ProjectHome</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RouteScriptsExample/">RouteScriptsExample</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RouteScriptsExampleBotsEngine/">RouteScriptsExampleBotsEngine</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RouteScriptsExampleWholeRoute/">RouteScriptsExampleWholeRoute</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RouteScriptsOverviewExits/">RouteScriptsOverviewExits</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RoutesAttributes/">RoutesAttributes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RoutesComposite/">RoutesComposite</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RoutesIntroduction/">RoutesIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RoutesPass/">RoutesPass</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RoutesRecipes/">RoutesRecipes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../RoutesScripts/">RoutesScripts</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../SideNavigation/">SideNavigation</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../SplitandMerge/">SplitandMerge</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartConfigurationFiles/">StartConfigurationFiles</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartGetBotsRunning/">StartGetBotsRunning</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartInstallDependencies/">StartInstallDependencies</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartInstallFaq/">StartInstallFaq</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartInstallProcedure/">StartInstallProcedure</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartInstallWindows/">StartInstallWindows</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartInstalllinux/">StartInstalllinux</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartIntroduction/">StartIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartMyFirstPlugin/">StartMyFirstPlugin</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartMyFirstPluginDepth/">StartMyFirstPluginDepth</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartMyFirstPluginResults/">StartMyFirstPluginResults</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../StartMyFirstPluginSetup/">StartMyFirstPluginSetup</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationAlt/">TranslationAlt</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationDetail/">TranslationDetail</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationIntroduction/">TranslationIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationRecipes/">TranslationRecipes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationRules/">TranslationRules</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationVersions/">TranslationVersions</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationperPartner/">TranslationperPartner</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TranslationperPartnerExtended/">TranslationperPartnerExtended</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Translations/">Translations</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../Troubleshooting/">Troubleshooting</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialAdvanceShipNotice/">TutorialAdvanceShipNotice</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialEdiBasics/">TutorialEdiBasics</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialHighLevelBusinessFlow/">TutorialHighLevelBusinessFlow</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialHome/">TutorialHome</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialInvoice/">TutorialInvoice</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialPurchaseOrder/">TutorialPurchaseOrder</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialPurchaseOrderAck/">TutorialPurchaseOrderAck</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../TutorialPurchaseOrderChange/">TutorialPurchaseOrderChange</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../UsefulTools/">UsefulTools</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../UserScriptingIntroduction/">UserScriptingIntroduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../UserSecurity/">UserSecurity</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../V300changes/">V300changes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../V300migrate/">V300migrate</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../V300rcchanges/">V300rcchanges</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../V310changes/">V310changes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../V310migrate/">V310migrate</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../V320changes/">V320changes</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../V320migrate/">V320migrate</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../WhereDoIStart/">WhereDoIStart</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../WindowsServices/">WindowsServices</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../XMLnamespace/">XMLnamespace</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../index_old/">Index old</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../sam/">Sam</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
 
-<h2 id="bots-monitor-over-https-introduction">Bots-monitor over HTTPS Introduction</h2>
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Bots Edi Translator Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>DeploymentHttps</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="bots-monitor-over-https-introduction">Bots-monitor over HTTPS Introduction</h2>
 <p>This feature is introduced in bots 2.1.0.<br />
 This works with cherrypy > 3.2.0 in combination with python 2.6 or
 2.7. In python 2.5 this works (using extra dependency pyOpenssl) but
@@ -1054,47 +1211,51 @@ ssl_private_key = /mysafeplace/mycert.pem
 <p>You can create self-signed certificates at
 <a href="http://www.selfsignedcertificate.com/">http://www.selfsignedcertificate.com/</a> </p>
 <p>You can configure port=443 in
-bots.ini then just point your browser to <em>https://localhost</em></p></div>
-            
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-
-        <script src="../js/jquery-1.10.2.min.js"></script>
-        <script src="../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../js/highlight.pack.js"></script>
-        <script>var base_url = '..';</script>
-        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
-        <script src="../js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+bots.ini then just point your browser to <em>https://localhost</em></p>
+              
             </div>
-        </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../DeploymentIntroduction/" class="btn btn-neutral float-right" title="DeploymentIntroduction">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../DeploymentHandleErrors/" class="btn btn-neutral" title="DeploymentHandleErrors"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
 
-    </body>
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+<!--
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+-->
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../DeploymentHandleErrors/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../DeploymentIntroduction/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
 </html>

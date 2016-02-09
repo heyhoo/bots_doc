@@ -1,2 +1,2 @@
 site_name: Bots Edi Translator Documentation
-docs_dir: /bots-doc-project/docs
+theme: readthedocs
